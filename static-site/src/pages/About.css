@@ -1,0 +1,114 @@
+.about-page {
+  width: 100%;
+}
+
+.about-hero {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-hero h1 {
+  color: #b41906;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.instructors-section,
+.founders-section,
+.lineage-section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.instructors-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.founders-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.lineage-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.instructors-content p,
+.founders-content p,
+.lineage-content p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.founders-content a {
+  color: #b41906;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.founders-content a:hover {
+  text-decoration: underline;
+}
+
+.founders-section {
+  background-color: #f9f9f9;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.founders-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.lineage-content {
+  background-color: white;
+  padding: 2rem;
+  border-left: 4px solid #b41906;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .instructors-section h2,
+  .founders-section h2,
+  .lineage-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .instructors-content p,
+  .founders-content p,
+  .lineage-content p {
+    text-align: left;
+    font-size: 1rem;
+  }
+}

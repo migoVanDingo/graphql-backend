@@ -1,0 +1,218 @@
+.schedule-page {
+  width: 100%;
+}
+
+.schedule-hero {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.schedule-hero h1 {
+  color: #b41906;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.weekly-schedule-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.weekly-schedule-section h2,
+.four-month-section h2,
+.seminars-section h2,
+.schedule-info h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.schedule-day {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-day h3 {
+  color: #b41906;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #b41906;
+}
+
+.schedule-day ul {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule-day li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.schedule-day li:last-child {
+  border-bottom: none;
+}
+
+.schedule-day strong {
+  color: #b41906;
+  margin-right: 0.5rem;
+}
+
+.four-month-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.current-month-highlight {
+  background-color: #f9f9f9;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.current-month-highlight h3 {
+  color: #b41906;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.belt-schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.belt-schedule {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.belt-schedule h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #b41906;
+}
+
+.belt-schedule.brown-belt h4 {
+  color: #8b4513;
+}
+
+.belt-schedule.black-belt h4 {
+  color: #1a1a1a;
+}
+
+.belt-schedule .primary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.belt-schedule .secondary {
+  color: #666;
+  font-size: 1rem;
+}
+
+.upcoming-months {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.month-row {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #b41906;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.month-title {
+  color: #b41906;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.month-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.belt-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.belt-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.secondary-text {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.seminars-section {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  margin-top: 4rem;
+}
+
+.seminars-intro {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.seminar-placeholder {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #666;
+}
+
+.schedule-info {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.schedule-info p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}

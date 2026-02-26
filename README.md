@@ -1,2 +1,0 @@
-# graphql-backend
-graphql backend

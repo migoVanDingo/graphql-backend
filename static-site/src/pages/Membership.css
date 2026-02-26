@@ -1,0 +1,215 @@
+.membership-page {
+  width: 100%;
+}
+
+.membership-hero {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.membership-hero h1 {
+  color: #b41906;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.membership-options {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.membership-options h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.memberships-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.membership-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.membership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.membership-header {
+  background-color: #b41906;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.membership-header h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.payment-type {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.includes {
+  margin: 1rem 0 0 0;
+  font-size: 0.85rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.membership-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b41906;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  color: #333;
+  margin: 1rem 0;
+}
+
+.savings strong {
+  color: #b41906;
+}
+
+.monthly-rate {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.disclaimer {
+  background-color: #fff9e6;
+  padding: 1.5rem;
+  border-left: 4px solid #b41906;
+  margin-top: 3rem;
+}
+
+.disclaimer p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.observe-class-section {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.observe-class-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.observe-class-section p {
+  max-width: 900px;
+  margin: 1rem auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.contact-form-section {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.contact-form-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-form-section > p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.form-status {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #b41906;
+}
+
+.submit-button {
+  background-color: #b41906;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #8a1205;
+}

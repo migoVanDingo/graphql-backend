@@ -1,0 +1,191 @@
+.classes-page {
+  width: 100%;
+}
+
+.classes-hero {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.classes-hero h1 {
+  color: #b41906;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-warrior {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.intro-text {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.curriculum-section,
+.instruction-section,
+.wooden-man-section,
+.facilities-section {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.curriculum-section h2,
+.instruction-section h2,
+.wooden-man-section h2,
+.facilities-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section-text {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-text a {
+  color: #b41906;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section-text a:hover {
+  text-decoration: underline;
+}
+
+.styles-heading {
+  text-align: center;
+  color: #333;
+  font-size: 1.3rem;
+  margin: 3rem 0 2rem;
+}
+
+.styles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.style-category {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.style-category h4 {
+  color: #b41906;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.style-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.style-category li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.style-category li:last-child {
+  border-bottom: none;
+}
+
+.training-subsection {
+  margin-bottom: 3rem;
+}
+
+.training-subsection h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.training-subsection h4 {
+  color: #b41906;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.benefits-list {
+  line-height: 1.8;
+  margin-left: 2rem;
+}
+
+.benefits-list li {
+  margin-bottom: 0.5rem;
+}
+
+.cta-section {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.cta-section h2 {
+  color: #b41906;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-section p {
+  max-width: 700px;
+  margin: 1rem auto;
+  line-height: 1.8;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #b41906;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 2rem 0 1rem;
+  transition: background-color 0.3s;
+  font-size: 1.1rem;
+}
+
+.cta-button:hover {
+  background-color: #8a1205;
+}
+
+.cta-subtext {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.class-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.class-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.class-images img:hover {
+  transform: scale(1.05);
+}
